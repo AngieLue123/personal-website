@@ -16,7 +16,7 @@ const workExperience = [
 const WorkSection = () => {
   return (
     <section className="work-section">
-      <h2>Work</h2>
+      <h2>Experience</h2>
       <ul className="work-list">
         {workExperience.map((job, index) => (
           <li key={index} className="work-item">
