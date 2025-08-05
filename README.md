@@ -1,1 +1,1 @@
-# personal-website
+# My personal website! pretty self explanatory for now
