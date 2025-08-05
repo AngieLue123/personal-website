@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import WorkSection from './WorkSection.js';
 
 function App() {
   return (
