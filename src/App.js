@@ -23,10 +23,10 @@ function App() {
             I recently graduated from UCLA with a double major in Computer Science and Economics and concentration in Value Investing.
           </p>
           <p> 
-            I most recently worked at Meta as an engineer building applied AI products. I have also been lucky to build with the incredible teams at Mercury, Checkmate, Papaya, and PayPal. 
+            I most recently worked at Meta as an engineer building applied AI products. I have also been lucky to build with the incredible teams at <a href="https://mercury.com/">Mercury</a>, <a href="https://joincheckmate.com/">Checkmate</a>, <a href="https://papayapay.com/">Papaya</a>, and PayPal. 
           </p>
           <p>
-            While at UCLA, I caught the venture bug and invested part-time at General Catalyst leading their Venture Fellowship, Mantis VC (the Chainsmokers' venture fund), and NEA. 
+            While at UCLA, I caught the venture bug and invested part-time at General Catalyst (leading their Venture Fellowship), Mantis VC (the Chainsmokers' venture fund), and NEA. 
             I also angel invest and have been very grateful to back <a href="https://aeolus.earth/">Aeolus</a>, <a href="https://basalt.space/">Basalt</a>, and <a href="https://www.tryminerva.ai/">Minerva AI</a>.
           </p>
           <p>
