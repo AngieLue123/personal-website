@@ -27,7 +27,7 @@ function App() {
           </p>
           <p>
             While at UCLA, I caught the venture bug and invested part-time at General Catalyst leading their Venute Fellowship, Mantis VC (the Chainsmokers' venture fund), and NEA. 
-            I also angel invest and have been very grateful to back Aeolus, Basalt, and Minerva AI.
+            I also angel invest and have been very grateful to back <a href="https://aeolus.earth/">Aeolus</a>, <a href="https://basalt.space/">Basalt</a>, and <a href="https://www.tryminerva.ai/">Minerva AI</a>.
           </p>
           <p>
             For fun, I love to snowboard, host dinners and poker nights, and update my <a href="https://beliapp.co/app/alue">Beli</a>  :) 
