@@ -58,7 +58,9 @@ function App() {
 
       {/* Footer */}
       <footer className="App-footer">
-        <p><a href="https://www.linkedin.com/in/angelina-lue">LinkedIn</a>  •  <a href="https://x.com/angelina_lue?s=21">Twitter</a>  •   © 2025 Angelina Lue</p>
+        <p>
+          <a href="mailto:alue8@ucla.edu">Email</a>  •  <a href="https://www.linkedin.com/in/angelina-lue">LinkedIn</a>  •  <a href="https://x.com/angelina_lue?s=21">Twitter</a>  •   © 2025 Angelina Lue
+        </p>
       </footer>
     </div>
   );
