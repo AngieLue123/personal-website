@@ -19,11 +19,12 @@ function App() {
         {/* About Section */}
         <section id="about" className="section">
           <p>
-            I'm a product-obsessed builder based in the SF Bay Area. 
-            I recently graduated from UCLA with a double major in Computer Science and Economics and concentration in Value Investing.
+            I'm a product-obsessed builder based in SF.
+            I recently graduated from UCLA with a double major in Computer Science and Economics 
+            and concentration in Value Investing.
           </p>
           <p> 
-            I most recently worked at Meta as an engineer building applied AI products. I have also been lucky to build with the incredible teams at <a href="https://mercury.com/" target="_blank" rel="noopener noreferrer">Mercury</a>, <a href="https://joincheckmate.com/" target="_blank" rel="noopener noreferrer">Checkmate</a>, <a href="https://papayapay.com/" target="_blank" rel="noopener noreferrer">Papaya</a>, and PayPal. 
+            I most recently worked at Meta as an engineer building applied AI products. Before this, I shipped products with the incredible teams at <a href="https://mercury.com/" target="_blank" rel="noopener noreferrer">Mercury</a>, <a href="https://joincheckmate.com/" target="_blank" rel="noopener noreferrer">Checkmate</a>, <a href="https://papayapay.com/" target="_blank" rel="noopener noreferrer">Papaya</a>, and PayPal as a product and software engineer. 
           </p>
           <p>
             While at UCLA, I caught the venture bug and invested part-time at General Catalyst (leading their Venture Fellowship), Mantis VC (the Chainsmokers' venture fund), and NEA. 
@@ -33,8 +34,7 @@ function App() {
             For fun, I love snowboarding, hosting dinner parties and poker nights, coffee, running to house music (Fisher, Sammy Virji, Mau P), and updating my <a href="https://beliapp.co/app/alue" target="_blank" rel="noopener noreferrer">Beli</a>  :) 
           </p>
           <p>
-            I love meeting new people, please introduce yourself! Reach me at alue8 [at] ucla [dot] edu or 
-            message me on <a href="https://www.linkedin.com/in/angelina-lue/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+            I love meeting new people, please introduce yourself! Reach me at alue8 [at] ucla [dot] edu
           </p>
         </section>
 
