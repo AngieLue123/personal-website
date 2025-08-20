@@ -19,19 +19,20 @@ function App() {
         {/* About Section */}
         <section id="about" className="section">
           <p>
-            I'm a product-obsessed builder based in SF.
-            I recently graduated from UCLA with a double major in Computer Science and Economics 
+            I'm a product-obsessed builder based in SF. Currently, I'm most interested in AI products that make our every day lives 10x more seamless.
+            In June, I graduated from UCLA with a double major in Computer Science and Economics 
             and concentration in Value Investing.
           </p>
           <p> 
-            I most recently worked at Meta as an engineer building applied AI products. Before this, I shipped products with the incredible teams at <a href="https://mercury.com/" target="_blank" rel="noopener noreferrer">Mercury</a>, <a href="https://joincheckmate.com/" target="_blank" rel="noopener noreferrer">Checkmate</a>, <a href="https://papayapay.com/" target="_blank" rel="noopener noreferrer">Papaya</a>, and PayPal as a product and software engineer. 
+            Most recently, I was an engineer at Meta building applied AI products. 
+            Before this, I shipped products as a software engineer at <a href="https://mercury.com/" target="_blank" rel="noopener noreferrer">Mercury</a>, <a href="https://joincheckmate.com/" target="_blank" rel="noopener noreferrer">Checkmate</a>, and PayPal. I also explored PM and healthcare revenue cycle management at <a href="https://papayapay.com/" target="_blank" rel="noopener noreferrer">Papaya</a> as a Bessemer Fellow.
           </p>
           <p>
             While at UCLA, I caught the venture bug and invested part-time at General Catalyst (leading their Venture Fellowship), Mantis VC (the Chainsmokers' venture fund), and NEA. 
-            I also angel invest and have been very grateful to back <a href="https://aeolus.earth/" target="_blank" rel="noopener noreferrer">Aeolus</a>, <a href="https://basalt.space/" target="_blank" rel="noopener noreferrer">Basalt</a>, and <a href="https://www.tryminerva.ai/" target="_blank" rel="noopener noreferrer">Minerva AI</a>.
+            I also angel invest and have been very grateful to back <a href="https://aeolus.earth/" target="_blank" rel="noopener noreferrer">Aeolus</a>  (Thiel Fellow 2025), <a href="https://basalt.space/" target="_blank" rel="noopener noreferrer">Basalt</a> (YC W24), and <a href="https://www.tryminerva.ai/" target="_blank" rel="noopener noreferrer">Minerva AI</a> (YC S25).
           </p>
           <p>
-            For fun, I love snowboarding, hosting dinner parties and poker nights, coffee, running to house music (Fisher, Sammy Virji, Mau P), and updating my <a href="https://beliapp.co/app/alue" target="_blank" rel="noopener noreferrer">Beli</a>  :) 
+            For fun, I love snowboarding, hosting dinner parties and poker nights, coffee, running to house music (Sammy Virji, Mau P), and updating my <a href="https://beliapp.co/app/alue" target="_blank" rel="noopener noreferrer">Beli</a>  :) 
           </p>
           <p>
             I love meeting new people, please introduce yourself! Reach me at alue8 [at] ucla [dot] edu
