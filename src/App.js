@@ -39,7 +39,7 @@ function App() {
       {/* Header */}
       <header className="App-header">
         <h1 className="name">
-          <TypewriterText text="Hi, I'm Angelina!" speed={238} delay={800} />
+          <TypewriterText text="Hi, I'm Angelina!" speed={150} delay={800} />
         </h1>
         <nav>
           {/* <a href="#writing">writing</a> */}
