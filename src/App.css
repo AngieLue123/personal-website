@@ -13,6 +13,7 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
+  background-color: #FFFFFF;
 }
 
 body {
@@ -29,6 +30,7 @@ body {
   min-height: -webkit-fill-available;
   /* Handle safe areas for notched devices */
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  background-color: #FFFFFF !important;
 }
 
 a {
@@ -233,12 +235,17 @@ nav a:hover {
 
 /* Mobile-specific adjustments */
 @media screen and (max-width: 768px) {
+  html, body {
+    background-color: #FFFFFF !important;
+  }
+  
   .App {
     padding: 20px 15px;
     padding-left: max(15px, env(safe-area-inset-left));
     padding-right: max(15px, env(safe-area-inset-right));
     padding-top: max(20px, env(safe-area-inset-top));
-    padding-bottom: max(20px, env(safe-area-inset-bottom));
+    padding-bottom: max(15px, env(safe-area-inset-bottom));
+    background-color: #FFFFFF;
   }
   
   .name {
