@@ -1,12 +1,46 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+
+const TypewriterText = ({ text, speed = 100, delay = 500 }) => {
+  const [displayText, setDisplayText] = useState('');
+  const [index, setIndex] = useState(0);
+  const [started, setStarted] = useState(false);
+
+  useEffect(() => {
+    const startTimer = setTimeout(() => {
+      setStarted(true);
+    }, delay);
+
+    return () => clearTimeout(startTimer);
+  }, [delay]);
+
+  useEffect(() => {
+    if (started && index < text.length) {
+      const timeoutId = setTimeout(() => {
+        setDisplayText((prevText) => prevText + text.charAt(index));
+        setIndex((prevIndex) => prevIndex + 1);
+      }, speed);
+
+      return () => clearTimeout(timeoutId);
+    }
+  }, [started, index, text, speed]);
+
+  return (
+    <span>
+      {displayText}
+      <span className="cursor">_</span>
+    </span>
+  );
+};
 
 function App() {
   return (
     <div className="App">
       {/* Header */}
       <header className="App-header">
-        <h1 className="name">Hi, I'm Angelina!</h1>
+        <h1 className="name">
+          <TypewriterText text="Hi, I'm Angelina!" speed={250} delay={800} />
+        </h1>
         <nav>
           {/* <a href="#writing">writing</a> */}
           {/* <a href="#experience">experience</a> */}
@@ -59,9 +93,14 @@ function App() {
 
       {/* Footer */}
       <footer className="App-footer">
-        <p>
-          <a href="mailto:alue8@ucla.edu">Email</a>  •  <a href="https://www.linkedin.com/in/angelina-lue" target="_blank" rel="noopener noreferrer">LinkedIn</a>  •  <a href="https://x.com/angelina_lue?s=21" target="_blank" rel="noopener noreferrer">Twitter</a>  •   © 2025 Angelina Lue
-        </p>
+        <div className="footer-icons">
+          <a href="mailto:alue8@ucla.edu" aria-label="Email"><i className="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/angelina-lue" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i className="fab fa-linkedin"></i></a>
+          <a href="https://x.com/angelina_lue?s=21" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
+        </div>
+        <div className="footer-copyright">
+          © 2025 Angelina Lue
+        </div>
       </footer>
     </div>
   );
