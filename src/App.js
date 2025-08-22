@@ -53,7 +53,7 @@ function App() {
         {/* About Section */}
         <section id="about" className="section">
           <p>
-            I'm a product-obsessed builder based in SF. Currently, I'm most interested in AI products that make our every day lives 10x more seamless.
+            I'm a product-obsessed builder based in SF. I am most interested in AI products that make our every day lives 10x more seamless.
             In June, I graduated from UCLA with a double major in Computer Science and Economics 
             and concentration in Value Investing.
           </p>
