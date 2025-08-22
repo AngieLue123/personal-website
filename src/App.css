@@ -256,7 +256,7 @@ nav a:hover {
     padding: 20px 15px;
     padding-left: max(15px, env(safe-area-inset-left));
     padding-right: max(15px, env(safe-area-inset-right));
-    padding-top: max(20px, env(safe-area-inset-top));
+    padding-top: max(40px, env(safe-area-inset-top));
     padding-bottom: max(15px, env(safe-area-inset-bottom));
     background-color: #FFFFFF;
   }
