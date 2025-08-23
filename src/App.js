@@ -25,10 +25,12 @@ const TypewriterText = ({ text, speed = 100, delay = 500 }) => {
     }
   }, [started, index, text, speed]);
 
+  const isTypingComplete = index >= text.length;
+
   return (
     <span>
       {displayText}
-      <span className="cursor">_</span>
+      <span className={`cursor ${isTypingComplete ? 'cursor-static' : ''}`}>_</span>
     </span>
   );
 };
