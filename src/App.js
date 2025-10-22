@@ -55,16 +55,20 @@ function App() {
         {/* About Section */}
         <section id="about" className="section">
           <p>
-            I'm a product-obsessed builder based in SF. I am most interested in AI products that make our every day lives 10x more seamless.
+            I'm a product-obsessed builder based in SF, currently tinkering at Meta Superintelligence Labs.
+            
+          </p>
+          {/* <p> 
             In June, I graduated from UCLA with a double major in Computer Science and Economics 
             and concentration in Value Investing.
-          </p>
-          <p> 
-            Most recently, I was an engineer at Meta building applied AI products. 
-            Before this, I shipped products as a software engineer at <a href="https://mercury.com/" target="_blank" rel="noopener noreferrer">Mercury</a>, <a href="https://joincheckmate.com/" target="_blank" rel="noopener noreferrer">Checkmate</a>, and PayPal. I also explored PM and healthcare revenue cycle management at <a href="https://papayapay.com/" target="_blank" rel="noopener noreferrer">Papaya</a> as a Bessemer Fellow.
-          </p>
+            Before Meta, I shipped products as a software engineer at <a href="https://mercury.com/" target="_blank" rel="noopener noreferrer">Mercury</a>, 
+            <a href="https://joincheckmate.com/" target="_blank" rel="noopener noreferrer">Checkmate</a>, and PayPal. 
+            I also explored product and revenue cycle management at <a href="https://papayapay.com/" target="_blank" rel="noopener noreferrer">Papaya</a> as a Bessemer Fellow.
+          </p> */}
           <p>
-            While at UCLA, I caught the venture bug and invested part-time at General Catalyst (leading their Venture Fellowship), Mantis VC (the Chainsmokers' venture fund), and NEA. 
+            I love building and backing early ideas. I previously deep dove into fintech with the incredible teams at <a href="https://mercury.com/" target="_blank" rel="noopener noreferrer">Mercury</a>,  <a href="https://joincheckmate.com/" target="_blank" rel="noopener noreferrer">Checkmate</a>, <a href="https://papayapay.com/" target="_blank" rel="noopener noreferrer">Papaya</a>, and PayPal.
+         
+            Simultaneously, I caught the venture bug and was investing part-time at General Catalyst (leading their Venture Fellowship), Mantis VC (the Chainsmokers' venture fund), and NEA. 
             I also angel invest and have been very grateful to back <a href="https://aeolus.earth/" target="_blank" rel="noopener noreferrer">Aeolus</a>  (Thiel Fellow 2025), <a href="https://basalt.space/" target="_blank" rel="noopener noreferrer">Basalt</a> (YC W24), and <a href="https://www.tryminerva.ai/" target="_blank" rel="noopener noreferrer">Minerva AI</a> (YC S25).
           </p>
           <p>
