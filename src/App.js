@@ -55,7 +55,7 @@ function App() {
         {/* About Section */}
         <section id="about" className="section">
           <p>
-            I'm a product-obsessed builder based in SF, currently tinkering at Meta Superintelligence Labs.
+            I'm a product-obsessed builder based in SF, currently tinkering at Meta Superintelligence Labs. 
             
           </p>
           {/* <p> 
