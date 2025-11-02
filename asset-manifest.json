@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.ecabae9c.css",
-    "main.js": "/static/js/main.431358de.js",
+    "main.js": "/static/js/main.e23f30b2.js",
     "static/js/488.d07c9134.chunk.js": "/static/js/488.d07c9134.chunk.js",
     "static/media/itc-garamond-std-light-narrow.otf": "/static/media/itc-garamond-std-light-narrow.d1dba24ab4185e2a2ba7.otf",
     "index.html": "/index.html",
     "main.ecabae9c.css.map": "/static/css/main.ecabae9c.css.map",
-    "main.431358de.js.map": "/static/js/main.431358de.js.map",
+    "main.e23f30b2.js.map": "/static/js/main.e23f30b2.js.map",
     "488.d07c9134.chunk.js.map": "/static/js/488.d07c9134.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ecabae9c.css",
-    "static/js/main.431358de.js"
+    "static/js/main.e23f30b2.js"
   ]
 }
