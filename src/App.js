@@ -66,10 +66,13 @@ function App() {
             I also explored product and revenue cycle management at <a href="https://papayapay.com/" target="_blank" rel="noopener noreferrer">Papaya</a> as a Bessemer Fellow.
           </p> */}
           <p>
-            I love building and backing early ideas. I previously deep dove into fintech with the incredible teams at <a href="https://mercury.com/" target="_blank" rel="noopener noreferrer">Mercury</a>,  <a href="https://joincheckmate.com/" target="_blank" rel="noopener noreferrer">Checkmate</a>, <a href="https://papayapay.com/" target="_blank" rel="noopener noreferrer">Papaya</a>, and PayPal.
-         
-            Simultaneously, I caught the venture bug and was investing part-time at General Catalyst (leading their Venture Fellowship), Mantis VC (the Chainsmokers' venture fund), and NEA. 
-            I also angel invest and have been very grateful to back <a href="https://aeolus.earth/" target="_blank" rel="noopener noreferrer">Aeolus</a>  (Thiel Fellow 2025), <a href="https://basalt.space/" target="_blank" rel="noopener noreferrer">Basalt</a> (YC W24), and <a href="https://www.tryminerva.ai/" target="_blank" rel="noopener noreferrer">Minerva AI</a> (YC S25).
+            I love building and backing early ideas. I previously dove deep into fintech with the incredible teams at <a href="https://mercury.com/" target="_blank" rel="noopener noreferrer">Mercury</a>,  <a href="https://joincheckmate.com/" target="_blank" rel="noopener noreferrer">Checkmate</a>, <a href="https://papayapay.com/" target="_blank" rel="noopener noreferrer">Papaya</a>, and PayPal.
+            Simultaneously, I caught the venture bug investing part-time at General Catalyst leading their Venture Fellowship (fka Rough Draft Ventures). 
+
+          </p>
+
+          <p>
+            I also angel invest and have been very grateful to back: <a href="https://osmosis.ai/" target="_blank" rel="noopener noreferrer">Osmosis</a> (YC W25),  <a href="https://aeolus.earth/" target="_blank" rel="noopener noreferrer">Aeolus</a>  (Thiel Fellow 2025), <a href="https://basalt.space/" target="_blank" rel="noopener noreferrer">Basalt</a> (YC W24), and <a href="https://www.tryminerva.ai/" target="_blank" rel="noopener noreferrer">Minerva AI</a> (YC S25).
           </p>
           <p>
             For fun, I love snowboarding, hosting dinner parties and poker nights, coffee, running to house music (Sammy Virji, Mau P), and updating my <a href="https://beliapp.co/app/alue" target="_blank" rel="noopener noreferrer">Beli</a>  :) 
