@@ -108,7 +108,7 @@ function App() {
           <a href="https://x.com/angelina_lue?s=21" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
         </div>
         <div className="footer-copyright">
-          © 2025 Angelina Lue
+          © 2026 Angelina Lue
         </div>
       </footer>
     </div>
