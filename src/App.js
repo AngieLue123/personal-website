@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import MisogiPage from './MisogiPage';
 
 const TypewriterText = ({ text, speed = 100, delay = 500 }) => {
   const [displayText, setDisplayText] = useState('');
@@ -35,7 +36,31 @@ const TypewriterText = ({ text, speed = 100, delay = 500 }) => {
   );
 };
 
+const useHashRoute = () => {
+  const [hash, setHash] = useState(window.location.hash);
+
+  useEffect(() => {
+    const onHashChange = () => setHash(window.location.hash);
+    window.addEventListener('hashchange', onHashChange);
+    return () => window.removeEventListener('hashchange', onHashChange);
+  }, []);
+
+  return hash;
+};
+
 function App() {
+  const route = useHashRoute();
+
+  if (route === '#/misogi') {
+    return (
+      <div className="App">
+        <main className="App-content">
+          <MisogiPage />
+        </main>
+      </div>
+    );
+  }
+
   return (
     <div className="App">
       {/* Header */}
@@ -75,7 +100,7 @@ function App() {
             I also angel invest and have been very grateful to back: <a href="https://osmosis.ai/" target="_blank" rel="noopener noreferrer">Osmosis</a> (YC W25),  <a href="https://aeolus.earth/" target="_blank" rel="noopener noreferrer">Aeolus</a>  (Thiel Fellow 2025), <a href="https://basalt.space/" target="_blank" rel="noopener noreferrer">Basalt</a> (YC W24), and <a href="https://www.tryminerva.ai/" target="_blank" rel="noopener noreferrer">Minerva AI</a> (YC S25).
           </p>
           <p>
-            For fun, I love snowboarding, hosting dinner parties and poker nights, coffee, running to house music (Sammy Virji, Mau P), and updating my <a href="https://beliapp.co/app/alue" target="_blank" rel="noopener noreferrer">Beli</a>  :) 
+            For fun, I love snowboarding, hosting dinner parties and poker nights, coffee, <a href="#/misogi">running</a>, and updating my <a href="https://beliapp.co/app/alue" target="_blank" rel="noopener noreferrer">Beli</a>  :) 
           </p>
           <p>
             I love meeting new people, please introduce yourself! Reach me at alue8 [at] ucla [dot] edu
